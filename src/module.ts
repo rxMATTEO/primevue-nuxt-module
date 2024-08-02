@@ -2,7 +2,6 @@ import { addPlugin, addPluginTemplate, addTemplate, createResolver, defineNuxtMo
 import { normalize } from 'pathe';
 import { register } from './register';
 import type { ModuleOptions } from './types';
-import { useId } from 'nuxt/app';
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
